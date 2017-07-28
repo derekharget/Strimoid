@@ -4,7 +4,7 @@
     <meta charset="utf-8">
 </head>
 <body>
-<h2>Aktywacja konta</h2>
+<h2>{{ trans('auth.account registration') }}</h2>
 
 <div>
     <p>Witaj {!! $user->_id !!}!</p>

@@ -12,4 +12,5 @@ return [
     'logging in'          => 'log in',
     'sign in'             => 'sign in',
     'forgot password?'    => 'forgot password?',
+    'account registration' => 'Account Registration',
 ];
