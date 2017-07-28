@@ -13,4 +13,5 @@ return [
     'sign in'             => 'sign in',
     'forgot password?'    => 'forgot password?',
     'account registration' => 'Account Registration',
+    'link below' => 'To complete the registration process and activate your account, simply click on the link below',
 ];

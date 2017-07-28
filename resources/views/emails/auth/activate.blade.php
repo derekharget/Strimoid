@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pl-PL">
+<html lang="en-US">
 <head>
     <meta charset="utf-8">
 </head>
@@ -8,7 +8,7 @@
 
 <div>
     <p>Witaj {!! $user->_id !!}!</p>
-    <p>Aby zakończyć proces rejestracji i aktywować konto, wystarczy, że klikniesz na poniższy link:</p>
+    <p>{{ trans('auth.link below') }}</p>
     <p>
         <a href="{!! URL::to('account/activate', $user->activation_token) !!}">{!! URL::to('account/activate', [$user->activation_token]) !!}</a>
     </p>
